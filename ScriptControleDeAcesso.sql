@@ -3,7 +3,7 @@
 /* CREATE USER 'andre'@'%' IDENTIFIED BY 'milani123456'; */
 
 CREATE USER 'andre'@'localhost' IDENTIFIED BY 'milani123456';
-GRANT ALL ON curso_sql.* TO 'andre'@'localhost';
+GRANT ALL PRIVILEGES ON curso_sql.* TO 'andre'@'localhost';
 
 CREATE USER 'andre'@'%' IDENTIFIED BY 'andreviagem';
 GRANT SELECT ON curso_sql.* TO 'andre'@'%';
