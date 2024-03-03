@@ -1,7 +1,7 @@
-#Projeto de Resumo de SQL
+# Scripts com os principais comandos SQL
 Este projeto consiste em uma coleção de scripts SQL que abordam os principais comandos e conceitos da linguagem SQL, cobrindo tópicos como controle de acesso, criação de banco de dados, funções especiais, subqueries, manipulação de dados, relacionamentos, visões, stored procedures, triggers e transações.
 
-##Scripts Disponíveis
+## Scripts Disponíveis
 ScriptControleDeAcesso.sql: Este script trata do controle de acesso, incluindo permissões e privilégios de usuários.
 
 ScriptCriandoBancoDeDados.sql: Aqui, você encontrará um script para criar um banco de dados, incluindo tabelas, índices e outros objetos necessários.
@@ -16,14 +16,12 @@ ScriptStoredProceduresTriggers.sql: Aqui, você encontrará scripts para criar s
 
 ScriptTransacoes.sql: Aborda o conceito de transações e como garantir a consistência dos dados em operações que envolvem várias etapas.
 
-##Como Utilizar
+## Como Utilizar
 Clone este repositório em sua máquina local.
 
 Execute os scripts SQL em seu ambiente de banco de dados SQL Server, MySQL, PostgreSQL ou outro sistema compatível.
 
 Leia os comentários incluídos nos scripts para entender melhor cada comando e conceito apresentado.
 
-##Observações
+## Observações
 Certifique-se de ter permissões adequadas no seu ambiente de banco de dados para executar os scripts.
-
-Recomenda-se revisar e entender completamente os scripts antes de executá-los em um ambiente de produção.
