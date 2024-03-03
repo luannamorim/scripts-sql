@@ -1,7 +1,29 @@
-# Comandos SQL Essenciais
+#Projeto de Resumo de SQL
+Este projeto consiste em uma coleção de scripts SQL que abordam os principais comandos e conceitos da linguagem SQL, cobrindo tópicos como controle de acesso, criação de banco de dados, funções especiais, subqueries, manipulação de dados, relacionamentos, visões, stored procedures, triggers e transações.
 
-Este repositório contém uma lista dos principais comandos SQL utilizados para manipular e consultar bancos de dados relacionais.
+##Scripts Disponíveis
+ScriptControleDeAcesso.sql: Este script trata do controle de acesso, incluindo permissões e privilégios de usuários.
 
-## Visão Geral
+ScriptCriandoBancoDeDados.sql: Aqui, você encontrará um script para criar um banco de dados, incluindo tabelas, índices e outros objetos necessários.
 
-SQL (Structured Query Language) é uma linguagem padrão para gerenciar e manipular bancos de dados relacionais. Este repositório destina-se a fornecer uma referência rápida para os comandos SQL mais comuns utilizados no desenvolvimento e administração de bancos de dados.
+ScriptFuncoesEspeciaisSubqueries.sql: Este script explora funções especiais e subqueries para realizar operações mais complexas nos dados.
+
+ScriptManipulandoDados.sql: Aborda as diferentes maneiras de manipular dados, como inserir, atualizar, excluir e consultar registros em tabelas.
+
+ScriptRelacionamentoVisoes.sql: Este script trata de relacionamentos entre tabelas e a criação de visões para facilitar a consulta aos dados.
+
+ScriptStoredProceduresTriggers.sql: Aqui, você encontrará scripts para criar stored procedures e triggers, que são usados para automatizar processos e aplicar regras de negócios no banco de dados.
+
+ScriptTransacoes.sql: Aborda o conceito de transações e como garantir a consistência dos dados em operações que envolvem várias etapas.
+
+##Como Utilizar
+Clone este repositório em sua máquina local.
+
+Execute os scripts SQL em seu ambiente de banco de dados SQL Server, MySQL, PostgreSQL ou outro sistema compatível.
+
+Leia os comentários incluídos nos scripts para entender melhor cada comando e conceito apresentado.
+
+##Observações
+Certifique-se de ter permissões adequadas no seu ambiente de banco de dados para executar os scripts.
+
+Recomenda-se revisar e entender completamente os scripts antes de executá-los em um ambiente de produção.
