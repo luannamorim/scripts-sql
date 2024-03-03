@@ -5,24 +5,24 @@
 CREATE USER 'andre'@'localhost' IDENTIFIED BY 'milani123456';
 GRANT ALL PRIVILEGES ON curso_sql.* TO 'andre'@'localhost';
 
-CREATE USER 'andre'@'%' IDENTIFIED BY 'andreviagem';
-GRANT SELECT ON curso_sql.* TO 'andre'@'%';
+CREATE USER 'luann'@'%' IDENTIFIED BY 'andreviagem';
+GRANT SELECT ON curso_sql.* TO 'luann'@'%';
 /* GRANT INSERT ON curso_sql.* TO 'andre'@'%'; */
-GRANT INSERT ON curso_sql.funcionarios TO 'andre'@'%';
+GRANT INSERT ON curso_sql.funcionarios TO 'luann'@'%';
 
-REVOKE INSERT ON curso_sql.funcionarios FROM 'andre'@'%';
+REVOKE INSERT ON curso_sql.funcionarios FROM 'luann'@'%';
 REVOKE SELECT ON curso_sql.* FROM 'andre'@'%';
 
-GRANT SELECT ON curso_sql.funcionarios TO 'andre'@'%';
-GRANT SELECT ON curso_sql.veiculos TO 'andre'@'%';
+GRANT SELECT ON curso_sql.funcionarios TO 'luann'@'%';
+GRANT SELECT ON curso_sql.veiculos TO 'luann'@'%';
 
-REVOKE SELECT ON curso_sql.funcionarios FROM 'andre'@'%';
-REVOKE SELECT ON curso_sql.veiculos FROM 'andre'@'%';
+REVOKE SELECT ON curso_sql.funcionarios FROM 'luann'@'%';
+REVOKE SELECT ON curso_sql.veiculos FROM 'luann'@'%';
 
-REVOKE ALL ON curso_sql.* FROM 'andre'@'localhost';
+REVOKE ALL ON curso_sql.* FROM 'luann'@'localhost';
 
 DROP USER 'luann'@'%';
 DROP USER 'luann'@'localhost';
 
 SELECT User FROM mysql.user;
-SHOW GRANTS FOR 'andre'@'%';
+SHOW GRANTS FOR 'luann'@'%';
