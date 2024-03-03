@@ -4,17 +4,23 @@ Este projeto consiste em uma coleção de scripts SQL que abordam os principais 
 ## Scripts Disponíveis
 ScriptControleDeAcesso.sql: Este script trata do controle de acesso, incluindo permissões e privilégios de usuários.
 
-### ScriptCriandoBancoDeDados.sql: Aqui, você encontrará um script para criar um banco de dados, incluindo tabelas, índices e outros objetos necessários.
+### ScriptCriandoBancoDeDados.sql
+Aqui, você encontrará um script para criar um banco de dados, incluindo tabelas, índices e outros objetos necessários.
 
-### ScriptFuncoesEspeciaisSubqueries.sql: Este script explora funções especiais e subqueries para realizar operações mais complexas nos dados.
+### ScriptFuncoesEspeciaisSubqueries.sql
+Este script explora funções especiais e subqueries para realizar operações mais complexas nos dados.
 
-### ScriptManipulandoDados.sql: Aborda as diferentes maneiras de manipular dados, como inserir, atualizar, excluir e consultar registros em tabelas.
+### ScriptManipulandoDados.sql
+Aborda as diferentes maneiras de manipular dados, como inserir, atualizar, excluir e consultar registros em tabelas.
 
-### ScriptRelacionamentoVisoes.sql: Este script trata de relacionamentos entre tabelas e a criação de visões para facilitar a consulta aos dados.
+### ScriptRelacionamentoVisoes.sql
+Este script trata de relacionamentos entre tabelas e a criação de visões para facilitar a consulta aos dados.
 
-### ScriptStoredProceduresTriggers.sql: Aqui, você encontrará scripts para criar stored procedures e triggers, que são usados para automatizar processos e aplicar regras de negócios no banco de dados.
+### ScriptStoredProceduresTriggers.sql
+Aqui, você encontrará scripts para criar stored procedures e triggers, que são usados para automatizar processos e aplicar regras de negócios no banco de dados.
 
-### ScriptTransacoes.sql: Aborda o conceito de transações e como garantir a consistência dos dados em operações que envolvem várias etapas.
+### ScriptTransacoes.sql
+Aborda o conceito de transações e como garantir a consistência dos dados em operações que envolvem várias etapas.
 
 ## Como Utilizar
 Clone este repositório em sua máquina local.
