@@ -21,8 +21,8 @@ REVOKE SELECT ON curso_sql.veiculos FROM 'andre'@'%';
 
 REVOKE ALL ON curso_sql.* FROM 'andre'@'localhost';
 
-DROP USER 'andre'@'%';
-DROP USER 'andre'@'localhost';
+DROP USER 'luann'@'%';
+DROP USER 'luann'@'localhost';
 
 SELECT User FROM mysql.user;
 SHOW GRANTS FOR 'andre'@'%';
