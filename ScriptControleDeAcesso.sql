@@ -1,6 +1,6 @@
 
-/* CREATE USER 'andre'@'200.200.190.190' IDENTIFIED BY 'milani123456'; */
-/* CREATE USER 'andre'@'%' IDENTIFIED BY 'milani123456'; */
+/* CREATE USER 'luann'@'200.200.190.190' IDENTIFIED BY 'milani123456'; */
+/* CREATE USER 'luann'@'%' IDENTIFIED BY 'milani123456'; */
 
 CREATE USER 'andre'@'localhost' IDENTIFIED BY 'milani123456';
 GRANT ALL PRIVILEGES ON curso_sql.* TO 'andre'@'localhost';
